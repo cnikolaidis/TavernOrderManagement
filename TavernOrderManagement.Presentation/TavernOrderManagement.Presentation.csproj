@@ -35,6 +35,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +44,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChildForms\OrdersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\OrdersForm.Designer.cs">
+      <DependentUpon>OrdersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\ProductsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\ProductsForm.Designer.cs">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\ProductViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\ProductViewForm.Designer.cs">
+      <DependentUpon>ProductViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\ReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\ReportsForm.Designer.cs">
+      <DependentUpon>ReportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\SetQuantityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\SetQuantityForm.Designer.cs">
+      <DependentUpon>SetQuantityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\TableNumsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\TableNumsForm.Designer.cs">
+      <DependentUpon>TableNumsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -51,5 +94,16 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TavernOrderManagement.DataAccessLayer\TavernOrderManagement.DataAccessLayer.csproj">
+      <Project>{BDD6CF63-7F4E-4B14-B6E8-664D929948C9}</Project>
+      <Name>TavernOrderManagement.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TavernOrderManagement.Utilities\TavernOrderManagement.Utilities.csproj">
+      <Project>{e4401781-451b-4599-acb1-bad45fbc8d0e}</Project>
+      <Name>TavernOrderManagement.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
