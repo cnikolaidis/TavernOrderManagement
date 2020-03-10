@@ -238,7 +238,7 @@
             this.newItemBtn.BackColor = System.Drawing.Color.Transparent;
             this.newItemBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.newItemBtn.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.newItemBtn.Image = ((System.Drawing.Image)(resources.GetObject("newItemBtn.Image")));
+            //this.newItemBtn.Image = ((System.Drawing.Image)(resources.GetObject("newItemBtn.Image")));
             this.newItemBtn.Location = new System.Drawing.Point(967, 444);
             this.newItemBtn.Name = "newItemBtn";
             this.newItemBtn.Size = new System.Drawing.Size(50, 45);

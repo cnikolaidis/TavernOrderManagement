@@ -88,7 +88,7 @@
             this.okBtn.BackColor = System.Drawing.Color.Black;
             this.okBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.okBtn.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold);
-            this.okBtn.Image = ((System.Drawing.Image)(resources.GetObject("okBtn.Image")));
+            //this.okBtn.Image = ((System.Drawing.Image)(resources.GetObject("okBtn.Image")));
             this.okBtn.Location = new System.Drawing.Point(3, 109);
             this.okBtn.Name = "okBtn";
             this.okBtn.Size = new System.Drawing.Size(80, 49);
@@ -100,7 +100,7 @@
             this.cancelBtn.BackColor = System.Drawing.Color.Black;
             this.cancelBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cancelBtn.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold);
-            this.cancelBtn.Image = ((System.Drawing.Image)(resources.GetObject("cancelBtn.Image")));
+            //this.cancelBtn.Image = ((System.Drawing.Image)(resources.GetObject("cancelBtn.Image")));
             this.cancelBtn.Location = new System.Drawing.Point(89, 109);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(80, 49);

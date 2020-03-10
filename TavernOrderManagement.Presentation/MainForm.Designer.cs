@@ -159,7 +159,7 @@
             this.aboutMenuItem,
             this.exitMenuItem});
             this.εισαγωγήToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.εισαγωγήToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("εισαγωγήToolStripMenuItem.Image")));
+            //this.εισαγωγήToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("εισαγωγήToolStripMenuItem.Image")));
             this.εισαγωγήToolStripMenuItem.Name = "εισαγωγήToolStripMenuItem";
             this.εισαγωγήToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.εισαγωγήToolStripMenuItem.Text = "Menu";
@@ -1283,7 +1283,7 @@
             this.deleteOrderItemBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.deleteOrderItemBtn.Font = new System.Drawing.Font("Book Antiqua", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.deleteOrderItemBtn.ForeColor = System.Drawing.Color.Black;
-            this.deleteOrderItemBtn.Image = ((System.Drawing.Image)(resources.GetObject("deleteOrderItemBtn.Image")));
+            //this.deleteOrderItemBtn.Image = ((System.Drawing.Image)(resources.GetObject("deleteOrderItemBtn.Image")));
             this.deleteOrderItemBtn.Location = new System.Drawing.Point(2, 318);
             this.deleteOrderItemBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.deleteOrderItemBtn.Name = "deleteOrderItemBtn";
@@ -1335,7 +1335,7 @@
             this.cancelOrderBtn.Enabled = false;
             this.cancelOrderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cancelOrderBtn.ForeColor = System.Drawing.Color.Black;
-            this.cancelOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("cancelOrderBtn.Image")));
+            //this.cancelOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("cancelOrderBtn.Image")));
             this.cancelOrderBtn.Location = new System.Drawing.Point(2, 50);
             this.cancelOrderBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.cancelOrderBtn.Name = "cancelOrderBtn";
@@ -1351,7 +1351,7 @@
             this.finishOrderBtn.Enabled = false;
             this.finishOrderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.finishOrderBtn.ForeColor = System.Drawing.Color.Black;
-            this.finishOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("finishOrderBtn.Image")));
+            //this.finishOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("finishOrderBtn.Image")));
             this.finishOrderBtn.Location = new System.Drawing.Point(152, 50);
             this.finishOrderBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.finishOrderBtn.Name = "finishOrderBtn";
@@ -1380,7 +1380,7 @@
             this.printOrderBtn.Enabled = false;
             this.printOrderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.printOrderBtn.ForeColor = System.Drawing.Color.Black;
-            this.printOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("printOrderBtn.Image")));
+            //this.printOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("printOrderBtn.Image")));
             this.printOrderBtn.Location = new System.Drawing.Point(3, 144);
             this.printOrderBtn.Name = "printOrderBtn";
             this.printOrderBtn.Size = new System.Drawing.Size(144, 89);
@@ -1394,7 +1394,7 @@
             this.moveOrderBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.moveOrderBtn.Enabled = false;
             this.moveOrderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.moveOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("moveOrderBtn.Image")));
+            //this.moveOrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("moveOrderBtn.Image")));
             this.moveOrderBtn.Location = new System.Drawing.Point(153, 144);
             this.moveOrderBtn.Name = "moveOrderBtn";
             this.moveOrderBtn.Size = new System.Drawing.Size(145, 89);
