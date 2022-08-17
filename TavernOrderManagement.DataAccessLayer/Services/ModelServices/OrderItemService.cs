@@ -85,8 +85,8 @@
             try
             {
                 var itemId = x.ItemArray[1].ToInt();
-                var itemName = x.ItemArray[3].ToString();
-                var itemPrice = x.ItemArray[4].ToDecimal();
+                var itemName = x.ItemArray.Length > 3 ? x.ItemArray[3].ToString() : string.Empty;
+                var itemPrice = x.ItemArray.Length > 3 ? x.ItemArray[4].ToDecimal() : 0;
 
                 if (!itemName.IsEmpty() && itemPrice != 0)
                     return new OrderItemDto
